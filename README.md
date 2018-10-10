@@ -17,7 +17,7 @@ npm install --save fastify-graphql-ctx graphql
 const Fastify = require('fastify');
 const app = Fastify();
 
-const {graphiqlFastify, graphqlFastify} = require('fastify-graphql');
+const {graphiqlFastify, graphqlFastify} = require('fastify-graphql-ctx');
 app.register(graphqlFastify, { 
   prefix: '/graphql', 
   graphql: {
