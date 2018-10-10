@@ -6,10 +6,3 @@ node_js:
 cache:
   yarn: true
 
-deploy:
-  provider: npm
-  email: sirsavary@outlook.com
-  api_key: $NPM_TOKEN
-  skip_cleanup: true
-  on:
-    tags: true

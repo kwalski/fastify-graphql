@@ -1,5 +1,5 @@
 {
-  "name": "fastify-graphql",
+  "name": "fastify-graphql-ctx",
   "version": "4.0.0",
   "description": "Apollo server plugin for Fastify",
   "main": "out/FastifyGraphQL.js",
@@ -14,24 +14,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sirsavary/fastify-graphql.git"
+    "url": "git+https://github.com/kwalski/fastify-graphql.git"
   },
   "keywords": [
     "fastify",
     "apollo",
     "graphql"
   ],
-  "author": "Jesse Savary",
+  "author": "Gi Singh",
   "contributors": [
     {
       "name": "Nickolena Coop",
       "url": "https://github.com/coopnd/"
+    },
+    {
+      "name": "Jesse Savary",
+      "url": "https://github.com/sirsavary/"
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/sirsavary/fastify-graphql#readme",
+  "homepage": "https://github.com/kwalski/fastify-graphql#readme",
   "bugs": {
-    "url": "https://github.com/sirsavary/fastify-graphql/issues"
+    "url": "https://github.com/kwalski/fastify-graphql/issues"
   },
   "dependencies": {
     "apollo-server-core": "^1.3.2",
